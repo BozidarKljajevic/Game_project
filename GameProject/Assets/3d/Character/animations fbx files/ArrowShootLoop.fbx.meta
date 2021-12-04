@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Take 001
+    second: ShootingRegular
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -17,18 +17,11 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: <Root Transform>
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'FemaleCATRigArmL11' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'FemaleCATRigArmL13'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FemaleCATRigArmL22'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FemaleCATRigArmLPalm'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'FemaleCATRigBowString'
-      has translation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -40,7 +33,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ShootingRegular
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 85
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -87,467 +109,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton:
-    - name: ArrowShootLoop(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigLegLPlatform
-      parentName: ArrowShootLoop(Clone)
-      position: {x: -0.04176321, y: -0.01037963, z: 0.2132051}
-      rotation: {x: 0.089118615, y: -0.08911858, z: -0.7014682, w: 0.7014685}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigLegRPlatform
-      parentName: ArrowShootLoop(Clone)
-      position: {x: 0.01593618, y: -0.01030593, z: -0.1775497}
-      rotation: {x: -0.00000014123547, y: 0.00000014123542, z: -0.70710665, w: 0.70710695}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigRoot
-      parentName: ArrowShootLoop(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigPelvis
-      parentName: FemaleCATRigRoot
-      position: {x: -0.0006256936, y: -0.03371931, z: 1.012599}
-      rotation: {x: 0.7060979, y: 0.06680029, z: -0.70479476, w: 0.015090106}
-      scale: {x: 0.9999999, y: 1, z: 1}
-    - name: FemaleCATRigSpineSpine1
-      parentName: FemaleCATRigPelvis
-      position: {x: -0.06097031, y: 0.0100036, z: 0}
-      rotation: {x: 0.012738252, y: 0.001279042, z: -0.083400644, w: 0.9964339}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigSpineSpine2
-      parentName: FemaleCATRigSpineSpine1
-      position: {x: -0.1444291, y: 0, z: -0.000000002384186}
-      rotation: {x: 0.05607403, y: -0.00421393, z: 0.24227563, w: 0.96857655}
-      scale: {x: 1.000001, y: 1.000001, z: 1}
-    - name: FemaleCATRigChest
-      parentName: FemaleCATRigSpineSpine2
-      position: {x: -0.15366259, y: 0.00000003814697, z: 0.000000002384186}
-      rotation: {x: 0.011533233, y: -0.008357864, z: -0.18799414, w: 0.98206687}
-      scale: {x: 1, y: 1, z: 0.9999998}
-    - name: FemaleCATRigNeck
-      parentName: FemaleCATRigChest
-      position: {x: -0.1950534, y: -0.04039758, z: 0.000000009536743}
-      rotation: {x: 0.2651708, y: -0.0077582337, z: -0.18515256, w: 0.9462256}
-      scale: {x: 0.9999996, y: 1, z: 0.9999998}
-    - name: FemaleCATRigHead
-      parentName: FemaleCATRigNeck
-      position: {x: -0.104487896, y: 0, z: 0}
-      rotation: {x: 0.24161161, y: 0.13569085, z: 0.12402262, w: 0.9528013}
-      scale: {x: 0.9999995, y: 0.9999998, z: 0.9999996}
-    - name: FemaleCATRigJaw
-      parentName: FemaleCATRigHead
-      position: {x: -0.03387924, y: 0.01568214, z: -0.000000009536743}
-      rotation: {x: 0.0000000781043, y: -0.00000019233067, z: -0.80502427, w: 0.5932419}
-      scale: {x: 0.9999997, y: 1, z: 1}
-    - name: FemaleCATRigTongue1
-      parentName: FemaleCATRigJaw
-      position: {x: -0.015685039, y: 0.005341492, z: 0}
-      rotation: {x: -0.000000020771258, y: -0.000000012797709, z: 0.13932738, w: 0.9902464}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigTongue2
-      parentName: FemaleCATRigTongue1
-      position: {x: -0.026891861, y: 0, z: 0.000000009536743}
-      rotation: {x: 0.0000000011947913, y: -0.00000005788719, z: -0.17273328, w: 0.98496866}
-      scale: {x: 0.9999998, y: 0.9999999, z: 1}
-    - name: FemaleCATRigTongue3
-      parentName: FemaleCATRigTongue2
-      position: {x: -0.02445816, y: 0, z: -0.000000009536743}
-      rotation: {x: 0.00000006156578, y: -0.000000025843654, z: 0.12827703, w: 0.9917384}
-      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
-    - name: FemaleCATRigTeethLower
-      parentName: FemaleCATRigJaw
-      position: {x: -0.030725168, y: 0.003722076, z: 0}
-      rotation: {x: -0.000000024984162, y: -0.000000014226275, z: 0.08285903, w: 0.9965613}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigEyeR
-      parentName: FemaleCATRigHead
-      position: {x: -0.1028448, y: 0.088589154, z: -0.03658754}
-      rotation: {x: 0.00000007276914, y: -0.00000015377015, z: -0.7071068, w: 0.7071068}
-      scale: {x: 0.9999997, y: 1, z: 1}
-    - name: FemaleCATRigEyeL
-      parentName: FemaleCATRigHead
-      position: {x: -0.1028448, y: 0.08858914, z: 0.03658753}
-      rotation: {x: 0.00000007342771, y: -0.000000047744457, z: -0.7071068, w: 0.7071068}
-      scale: {x: 0.9999997, y: 1, z: 0.9999999}
-    - name: FemaleCATRigEyeLidUpR
-      parentName: FemaleCATRigHead
-      position: {x: -0.1028448, y: 0.088589154, z: -0.03658754}
-      rotation: {x: 0.000000056073592, y: -0.0000001373154, z: -0.53730386, w: 0.8433888}
-      scale: {x: 0.9999997, y: 1, z: 1}
-    - name: FemaleCATRigEyeLidUPL
-      parentName: FemaleCATRigHead
-      position: {x: -0.1028448, y: 0.08858914, z: 0.03658753}
-      rotation: {x: 0.00000006332544, y: -0.00000006353271, z: -0.53730386, w: 0.8433888}
-      scale: {x: 0.9999997, y: 1, z: 0.9999999}
-    - name: FemaleCATRigEyeLidDownR
-      parentName: FemaleCATRigHead
-      position: {x: -0.1028448, y: 0.088589154, z: -0.03658754}
-      rotation: {x: -0.52921206, y: 0.84848964, z: -0.00000022596647, w: 0.0000001409377}
-      scale: {x: 0.9999997, y: 1, z: 1}
-    - name: FemaleCATRigEyeLidDownL
-      parentName: FemaleCATRigHead
-      position: {x: -0.1028448, y: 0.08858914, z: 0.03658753}
-      rotation: {x: -0.52921206, y: 0.84848964, z: 0.00000011298324, w: -0.00000007046885}
-      scale: {x: 0.9999997, y: 1, z: 0.9999999}
-    - name: FemaleCATRigTeethUpper
-      parentName: FemaleCATRigHead
-      position: {x: -0.03903763, y: 0.04686549, z: -0.000000028610229}
-      rotation: {x: 0.000000078649904, y: -0.0000001896362, z: -0.7447204, w: 0.6673766}
-      scale: {x: 0.9999997, y: 1, z: 1}
-    - name: FemaleCATRigEyebrow.MainR
-      parentName: FemaleCATRigHead
-      position: {x: -0.1264461, y: 0.1101826, z: -0.041111212}
-      rotation: {x: -0.15306121, y: -0.15306139, z: -0.6903422, w: 0.6903421}
-      scale: {x: 0.9999998, y: 1, z: 0.9999999}
-    - name: FemaleCATRigEyebrowR
-      parentName: FemaleCATRigEyebrow.MainR
-      position: {x: -0.000000019073491, y: 0.0000001525879, z: 0.00000000834465}
-      rotation: {x: 0.00000001722947, y: -0.00000007706694, z: -0.0000000372529, w: 1}
-      scale: {x: 1, y: 0.9999999, z: 1}
-    - name: FemaleCATRigEyebrowR1
-      parentName: FemaleCATRigEyebrowR
-      position: {x: 0.001799622, y: 0.0016679378, z: 0.02551209}
-      rotation: {x: -0.024838584, y: 0.10588271, z: 0.008514956, w: 0.9940319}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigEyebrowR2
-      parentName: FemaleCATRigEyebrowR
-      position: {x: 0.00058805465, y: 0.001030579, z: 0.01220947}
-      rotation: {x: -0.04907548, y: 0.051662523, z: 0.01986455, w: 0.9972603}
-      scale: {x: 0.9999999, y: 1, z: 1}
-    - name: FemaleCATRigEyebrowR3
-      parentName: FemaleCATRigEyebrowR
-      position: {x: -0.0004581261, y: 0.00005859375, z: -0.000847106}
-      rotation: {x: -0.027483365, y: 0.000000011811687, z: 3.2474753e-10, w: 0.9996223}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigEyebrowR4
-      parentName: FemaleCATRigEyebrowR
-      position: {x: -0.0006294441, y: 0.001047058, z: -0.013462209}
-      rotation: {x: 0.102863826, y: -0.053964652, z: 0.0055889473, w: 0.99321485}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigEyebrowR5
-      parentName: FemaleCATRigEyebrowR
-      position: {x: 0.004415302, y: 0.0067355353, z: -0.02644241}
-      rotation: {x: 0.20818214, y: -0.17696966, z: 0.038329776, w: 0.961183}
-      scale: {x: 1, y: 1, z: 0.9999999}
-    - name: FemaleCATRigEyebrow.MainL
-      parentName: FemaleCATRigHead
-      position: {x: -0.1264461, y: 0.1101826, z: 0.041111168}
-      rotation: {x: 0.15306135, y: 0.15306121, z: -0.6903421, w: 0.6903421}
-      scale: {x: 0.9999998, y: 1, z: 0.9999999}
-    - name: FemaleCATRigEyebrowL
-      parentName: FemaleCATRigEyebrow.MainL
-      position: {x: -0, y: 0, z: 0.000000019073491}
-      rotation: {x: -0.000000011175875, y: 0.000000007916241, z: 0.000000022351742, w: 1}
-      scale: {x: 1, y: 0.9999999, z: 1}
-    - name: FemaleCATRigEyebrowL1
-      parentName: FemaleCATRigEyebrowL
-      position: {x: 0.001799622, y: 0.0016680909, z: -0.02551211}
-      rotation: {x: 0.024838692, y: -0.10588244, z: 0.008514935, w: 0.9940319}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigEyebrowL2
-      parentName: FemaleCATRigEyebrowL
-      position: {x: 0.00058803556, y: 0.001030579, z: -0.012209459}
-      rotation: {x: 0.049075443, y: -0.05166242, z: 0.019864524, w: 0.9972603}
-      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
-    - name: FemaleCATRigEyebrowL3
-      parentName: FemaleCATRigEyebrowL
-      position: {x: -0.0004581451, y: 0.000058746336, z: 0.0008470726}
-      rotation: {x: 0.027483353, y: -0.000000024456435, z: -0.00000002541449, w: 0.9996223}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigEyebrowL4
-      parentName: FemaleCATRigEyebrowL
-      position: {x: -0.0006294441, y: 0.001047058, z: 0.01346222}
-      rotation: {x: -0.10286373, y: 0.053964745, z: 0.0055889143, w: 0.99321485}
-      scale: {x: 1, y: 1, z: 0.9999999}
-    - name: FemaleCATRigEyebrowL5
-      parentName: FemaleCATRigEyebrowL
-      position: {x: 0.004415302, y: 0.006735687, z: 0.02644241}
-      rotation: {x: -0.20818223, y: 0.17696966, z: 0.03832976, w: 0.961183}
-      scale: {x: 1, y: 0.9999999, z: 0.9999998}
-    - name: FemaleCATRigArmRCollarbone
-      parentName: FemaleCATRigChest
-      position: {x: -0.15631069, y: -0.049778707, z: -0.050225858}
-      rotation: {x: 0.025739264, y: -0.68064284, z: -0.038159408, w: 0.73116803}
-      scale: {x: 1, y: 0.9999999, z: 0.9999999}
-    - name: FemaleCATRigArmR11
-      parentName: FemaleCATRigArmRCollarbone
-      position: {x: -0.1156338, y: 0, z: 0.0000001525879}
-      rotation: {x: -0.27309945, y: -0.049623407, z: 0.05126745, w: 0.95933616}
-      scale: {x: 1.000002, y: 1.000009, z: 1.000003}
-    - name: FemaleCATRigArmR12
-      parentName: FemaleCATRigArmR11
-      position: {x: -0.08923027, y: 0, z: -0.00000007629395}
-      rotation: {x: 0.0098489355, y: -1.2841551e-10, z: -0.000000013037885, w: 0.99995154}
-      scale: {x: 0.9999999, y: 1, z: 1}
-    - name: FemaleCATRigArmR13
-      parentName: FemaleCATRigArmR12
-      position: {x: -0.08923027, y: 0, z: -0.00000007629395}
-      rotation: {x: 0.018275635, y: 2.382872e-10, z: 0.00000001303634, w: 0.999833}
-      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
-    - name: FemaleCATRigArmR21
-      parentName: FemaleCATRigArmR13
-      position: {x: -0.08923027, y: 0, z: 0}
-      rotation: {x: 0.00973551, y: -0.008490765, z: -0.050609432, w: 0.998635}
-      scale: {x: 0.9999937, y: 1.000002, z: 0.999998}
-    - name: FemaleCATRigArmR22
-      parentName: FemaleCATRigArmR21
-      position: {x: -0.1048366, y: 0.00000007629395, z: 0.00000007629395}
-      rotation: {x: 0.20907559, y: 0.000000008843654, z: 0.000000005728185, w: 0.9778995}
-      scale: {x: 1, y: 1, z: 0.9999999}
-    - name: FemaleCATRigArmR23
-      parentName: FemaleCATRigArmR22
-      position: {x: -0.1048366, y: 0.0000001525879, z: 0.00000007629395}
-      rotation: {x: 0.38098228, y: -0.0000000034443375, z: 0.0000000014192695, w: 0.92458236}
-      scale: {x: 1, y: 1, z: 0.9999999}
-    - name: FemaleCATRigArmRPalm
-      parentName: FemaleCATRigArmR23
-      position: {x: -0.1048366, y: 0, z: 0}
-      rotation: {x: 0.83248997, y: 0.02439418, z: -0.12474936, w: 0.5392615}
-      scale: {x: 0.9999976, y: 0.9999935, z: 0.9999986}
-    - name: FemaleCATRigArmRDigit11
-      parentName: FemaleCATRigArmRPalm
-      position: {x: -0.029115869, y: -0.01381523, z: -0.0307766}
-      rotation: {x: -0.6820701, y: -0.28131044, z: 0.049062006, w: 0.67322934}
-      scale: {x: 1, y: 0.9999986, z: 1.000002}
-    - name: FemaleCATRigArmRDigit12
-      parentName: FemaleCATRigArmRDigit11
-      position: {x: -0.036135137, y: -0.00000007629395, z: 0.00000007629395}
-      rotation: {x: -0.020956596, y: -0.1894842, z: 0.17175983, w: 0.96651703}
-      scale: {x: 0.9999987, y: 1, z: 1.000001}
-    - name: FemaleCATRigArmRDigit13
-      parentName: FemaleCATRigArmRDigit12
-      position: {x: -0.025060648, y: -0.00000007629395, z: 0.00000007629395}
-      rotation: {x: -0.011157419, y: -0.08117964, z: -0.020370781, w: 0.99642885}
-      scale: {x: 1, y: 0.9999982, z: 1.000001}
-    - name: FemaleCATRigArmRDigit21
-      parentName: FemaleCATRigArmRPalm
-      position: {x: -0.09060032, y: 0.001554337, z: -0.03106606}
-      rotation: {x: -0.12689734, y: 0.028378066, z: 0.16376261, w: 0.9778924}
-      scale: {x: 1.000003, y: 0.999998, z: 0.9999999}
-    - name: FemaleCATRigArmRDigit22
-      parentName: FemaleCATRigArmRDigit21
-      position: {x: -0.04050385, y: 0.00000003814697, z: 0}
-      rotation: {x: 0.013200217, y: -0.009264632, z: 0.3281859, w: 0.94447553}
-      scale: {x: 1.000001, y: 0.9999999, z: 0.9999999}
-    - name: FemaleCATRigArmRDigit23
-      parentName: FemaleCATRigArmRDigit22
-      position: {x: -0.021694869, y: -0.00000003814697, z: 0}
-      rotation: {x: 0.0025975152, y: 0.0030632329, z: 0.27674267, w: 0.9609357}
-      scale: {x: 1.000001, y: 1.000003, z: 0.9999964}
-    - name: FemaleCATRigArmRDigit31
-      parentName: FemaleCATRigArmRPalm
-      position: {x: -0.09640075, y: 0.005742188, z: -0.004560165}
-      rotation: {x: -0.06326726, y: -0.01046642, z: 0.20446186, w: 0.9767718}
-      scale: {x: 1.000001, y: 1.000001, z: 0.9999982}
-    - name: FemaleCATRigArmRDigit32
-      parentName: FemaleCATRigArmRDigit31
-      position: {x: -0.04607357, y: -0.00000007629395, z: 0}
-      rotation: {x: 0.011731553, y: 0.010812936, z: 0.3038818, w: 0.95257616}
-      scale: {x: 0.9999987, y: 1.000001, z: 1}
-    - name: FemaleCATRigArmRDigit33
-      parentName: FemaleCATRigArmRDigit32
-      position: {x: -0.016954988, y: 0, z: -0.00000007629395}
-      rotation: {x: 0.00055389164, y: -0.001022328, z: 0.12302899, w: 0.99240243}
-      scale: {x: 0.9999982, y: 1.000002, z: 1.000001}
-    - name: FemaleCATRigArmRDigit41
-      parentName: FemaleCATRigArmRPalm
-      position: {x: -0.09310692, y: 0.004675522, z: 0.01651375}
-      rotation: {x: -0.010152635, y: 0.06799188, z: 0.20247862, w: 0.9768708}
-      scale: {x: 1.000001, y: 1, z: 0.9999997}
-    - name: FemaleCATRigArmRDigit42
-      parentName: FemaleCATRigArmRDigit41
-      position: {x: -0.03987299, y: 0, z: 0}
-      rotation: {x: -0.002397767, y: -0.0017528284, z: 0.072894126, w: 0.9973353}
-      scale: {x: 1.000001, y: 0.9999989, z: 1.000001}
-    - name: FemaleCATRigArmRDigit43
-      parentName: FemaleCATRigArmRDigit42
-      position: {x: -0.01977154, y: 0, z: 0}
-      rotation: {x: 0.0030370336, y: 0.0011820813, z: 0.04792064, w: 0.9988459}
-      scale: {x: 0.9999994, y: 1.000004, z: 0.9999968}
-    - name: FemaleCATRigArmRDigit51
-      parentName: FemaleCATRigArmRPalm
-      position: {x: -0.08806992, y: 0.002190247, z: 0.03805443}
-      rotation: {x: 0.016272347, y: 0.13792083, z: 0.21046445, w: 0.96768683}
-      scale: {x: 1.000001, y: 1, z: 0.9999997}
-    - name: FemaleCATRigArmRDigit52
-      parentName: FemaleCATRigArmRDigit51
-      position: {x: -0.02574081, y: 0, z: 0}
-      rotation: {x: -0.08434216, y: 0.06152201, z: 0.064080246, w: 0.99246925}
-      scale: {x: 1.000001, y: 1.000001, z: 0.9999986}
-    - name: FemaleCATRigArmRDigit53
-      parentName: FemaleCATRigArmRDigit52
-      position: {x: -0.02154726, y: 0.00000003814697, z: 0}
-      rotation: {x: -0.024172865, y: -0.08260454, z: 0.082221135, w: 0.99289066}
-      scale: {x: 1.000001, y: 1.000003, z: 0.9999965}
-    - name: FemaleCATRigArmLCollarbone
-      parentName: FemaleCATRigChest
-      position: {x: -0.15631069, y: -0.04977869, z: 0.050225846}
-      rotation: {x: 0.032871153, y: 0.66593754, z: 0.13874993, w: 0.73225355}
-      scale: {x: 0.9999998, y: 1, z: 1}
-    - name: FemaleCATRigArmL11
-      parentName: FemaleCATRigArmLCollarbone
-      position: {x: -0.1156338, y: 0.000000002384186, z: 0}
-      rotation: {x: 0.027557885, y: 0.4819313, z: -0.23579161, w: 0.84343654}
-      scale: {x: 1.000001, y: 1.000001, z: 1}
-    - name: FemaleCATRigArmL12
-      parentName: FemaleCATRigArmL11
-      position: {x: -0.08923027, y: 0, z: 0}
-      rotation: {x: -0.036855686, y: -0.41287827, z: 0.080166, w: 0.9065025}
-      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
-    - name: FemaleCATRigArmL13
-      parentName: FemaleCATRigArmL12
-      position: {x: -0.08923027, y: -0.00000003814697, z: 0}
-      rotation: {x: -0.075333245, y: 0, z: -0, w: 0.99715847}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigArmL21
-      parentName: FemaleCATRigArmL13
-      position: {x: -0.08923027, y: 0, z: 0}
-      rotation: {x: -0.053151246, y: -0.022048177, z: -0.016887212, w: 0.9982002}
-      scale: {x: 0.9999983, y: 0.9999996, z: 1.000001}
-    - name: FemaleCATRigArmL22
-      parentName: FemaleCATRigArmL21
-      position: {x: -0.1048366, y: -0.00000007629395, z: 0}
-      rotation: {x: 0.061210897, y: 0.0000000053494302, z: -0.0000000040603476, w: 0.9981249}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigArmL23
-      parentName: FemaleCATRigArmL22
-      position: {x: -0.1048366, y: 0, z: 0.00000007629395}
-      rotation: {x: 0.11321158, y: 0.05868384, z: 0.010725618, w: 0.9917784}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigArmLPalm
-      parentName: FemaleCATRigArmL23
-      position: {x: -0.1048366, y: 0, z: 0}
-      rotation: {x: -0.59305745, y: -0.43545753, z: 0.09327624, w: 0.67078996}
-      scale: {x: 0.9999982, y: 1, z: 0.9999991}
-    - name: FemaleCATRigArmLDigit11
-      parentName: FemaleCATRigArmLPalm
-      position: {x: -0.02911591, y: -0.01381516, z: 0.0307766}
-      rotation: {x: 0.5338318, y: 0.43776116, z: -0.29421818, w: 0.660927}
-      scale: {x: 1, y: 1.000001, z: 0.999998}
-    - name: FemaleCATRigArmLDigit12
-      parentName: FemaleCATRigArmLDigit11
-      position: {x: -0.036135137, y: 0, z: 0.00000007629395}
-      rotation: {x: -0.0019522603, y: 0.03586992, z: 0.013819139, w: 0.999259}
-      scale: {x: 1.000002, y: 0.9999991, z: 0.9999986}
-    - name: FemaleCATRigArmLDigit13
-      parentName: FemaleCATRigArmLDigit12
-      position: {x: -0.02506077, y: 0, z: 0.00000007629395}
-      rotation: {x: -0.018680396, y: 0.0045153894, z: -0.16819978, w: 0.98556554}
-      scale: {x: 0.999999, y: 1.000001, z: 0.9999983}
-    - name: FemaleCATRigArmLDigit21
-      parentName: FemaleCATRigArmLPalm
-      position: {x: -0.090600625, y: 0.0015542599, z: 0.031065978}
-      rotation: {x: -0.09566007, y: 0.19775142, z: 0.16494143, w: 0.96152896}
-      scale: {x: 0.9999996, y: 1, z: 0.9999999}
-    - name: FemaleCATRigArmLDigit22
-      parentName: FemaleCATRigArmLDigit21
-      position: {x: -0.04050385, y: 0.00000003814697, z: 0}
-      rotation: {x: 0.0067811264, y: -0.000010222189, z: 0.001363962, w: 0.9999761}
-      scale: {x: 0.9999992, y: 1.000001, z: 1}
-    - name: FemaleCATRigArmLDigit23
-      parentName: FemaleCATRigArmLDigit22
-      position: {x: -0.021694789, y: -0.00000007629395, z: 0}
-      rotation: {x: 0.020776547, y: -0.015800409, z: 0.2674933, w: 0.9632061}
-      scale: {x: 0.9999996, y: 1.000004, z: 0.9999958}
-    - name: FemaleCATRigArmLDigit31
-      parentName: FemaleCATRigArmLPalm
-      position: {x: -0.09640095, y: 0.005742035, z: 0.004560242}
-      rotation: {x: -0.26122564, y: 0.17729986, z: 0.19503836, w: 0.92859364}
-      scale: {x: 0.9999999, y: 1.000001, z: 0.9999996}
-    - name: FemaleCATRigArmLDigit32
-      parentName: FemaleCATRigArmLDigit31
-      position: {x: -0.04607353, y: 0.00000003814697, z: 0}
-      rotation: {x: 0.019908441, y: 0.00000415742, z: 0.0062263967, w: 0.9997824}
-      scale: {x: 1.000002, y: 0.999998, z: 0.9999995}
-    - name: FemaleCATRigArmLDigit33
-      parentName: FemaleCATRigArmLDigit32
-      position: {x: -0.016954988, y: 0, z: 0.00000007629395}
-      rotation: {x: 0.06709304, y: 0.038852554, z: 0.5306363, w: 0.8440463}
-      scale: {x: 1.000005, y: 0.9999952, z: 0.9999992}
-    - name: FemaleCATRigArmLDigit41
-      parentName: FemaleCATRigArmLPalm
-      position: {x: -0.09310726, y: 0.004675522, z: -0.016513819}
-      rotation: {x: 0.0017935403, y: -0.05656414, z: 0.8636415, w: 0.50091976}
-      scale: {x: 0.9999974, y: 1.000002, z: 1}
-    - name: FemaleCATRigArmLDigit42
-      parentName: FemaleCATRigArmLDigit41
-      position: {x: -0.03987297, y: 0, z: 0}
-      rotation: {x: 0.013512716, y: -0.022531254, z: 0.55290496, w: 0.83283}
-      scale: {x: 0.9999984, y: 1.000002, z: 0.999999}
-    - name: FemaleCATRigArmLDigit43
-      parentName: FemaleCATRigArmLDigit42
-      position: {x: -0.01977158, y: -0.00000007629395, z: 0.00000007629395}
-      rotation: {x: -0.01093103, y: -0.024511537, z: 0.532027, w: 0.846302}
-      scale: {x: 0.9999993, y: 0.9999968, z: 1.000003}
-    - name: FemaleCATRigArmLDigit51
-      parentName: FemaleCATRigArmLPalm
-      position: {x: -0.0880701, y: 0.002190247, z: -0.0380545}
-      rotation: {x: -0.32081968, y: 0.16467373, z: 0.21699476, w: 0.9071222}
-      scale: {x: 0.9999972, y: 1.000002, z: 1.000001}
-    - name: FemaleCATRigArmLDigit52
-      parentName: FemaleCATRigArmLDigit51
-      position: {x: -0.02574081, y: 0.00000003814697, z: 0}
-      rotation: {x: 0.09245241, y: -0.00028035007, z: 0.004757283, w: 0.99570566}
-      scale: {x: 0.9999974, y: 1.000004, z: 0.9999983}
-    - name: FemaleCATRigArmLDigit53
-      parentName: FemaleCATRigArmLDigit52
-      position: {x: -0.02154724, y: 0, z: -0.00000007629395}
-      rotation: {x: -0.050065614, y: 0.09927065, z: 0.65971327, w: 0.74324775}
-      scale: {x: 0.9999955, y: 1.000007, z: 0.9999965}
-    - name: FemaleCATRigBowString
-      parentName: FemaleCATRigArmLPalm
-      position: {x: 0.1567231, y: -0.011073, z: 0.009757385}
-      rotation: {x: 0.00000005960464, y: 0.000000081956365, z: 0.000000014901153, w: 1}
-      scale: {x: 1, y: 1, z: 0.9999998}
-    - name: FemaleCATRigLegL1
-      parentName: FemaleCATRigPelvis
-      position: {x: 0.07847252, y: -0.01535616, z: 0.09365299}
-      rotation: {x: -0.104967974, y: 0.99217623, z: 0.0016744798, w: 0.06756642}
-      scale: {x: 1, y: 1, z: 1}
-    - name: FemaleCATRigLegL2
-      parentName: FemaleCATRigLegL1
-      position: {x: -0.4542906, y: 0.000001049042, z: -0.00000007629395}
-      rotation: {x: 0.03124063, y: 0.033754528, z: 0.24459766, w: 0.9685333}
-      scale: {x: 1.000004, y: 0.9999972, z: 0.9999993}
-    - name: FemaleCATRigLegLAnkleL
-      parentName: FemaleCATRigLegL2
-      position: {x: -0.4462749, y: 0, z: 0}
-      rotation: {x: 0.0067577977, y: 0.03875463, z: -0.6736935, w: 0.7379631}
-      scale: {x: 1.000006, y: 0.9999936, z: 1}
-    - name: FemaleCATRigLegLDigit11
-      parentName: FemaleCATRigLegLAnkleL
-      position: {x: -0.14354049, y: -0.020340731, z: -0.0000035476678}
-      rotation: {x: -0.0006132161, y: 0.0008530019, z: -0.18271907, w: 0.9831646}
-      scale: {x: 1.000001, y: 0.9999991, z: 1}
-    - name: FemaleCATRigLegR1
-      parentName: FemaleCATRigPelvis
-      position: {x: 0.078472435, y: -0.01535616, z: -0.09365298}
-      rotation: {x: -0.06449353, y: 0.97124153, z: -0.21377172, w: -0.08265718}
-      scale: {x: 0.9999999, y: 1, z: 1}
-    - name: FemaleCATRigLegR2
-      parentName: FemaleCATRigLegR1
-      position: {x: -0.4542908, y: 0.000001068115, z: -0.000000057220458}
-      rotation: {x: -0.18856202, y: -0.030271567, z: 0.22436254, w: 0.9556095}
-      scale: {x: 0.9999999, y: 1, z: 1.000001}
-    - name: FemaleCATRigLegRAnkleR
-      parentName: FemaleCATRigLegR2
-      position: {x: -0.4462749, y: 0, z: 0.000000019073491}
-      rotation: {x: 0.08288177, y: 0.023610726, z: -0.686543, w: 0.72196406}
-      scale: {x: 0.9999992, y: 1.000001, z: 1}
-    - name: FemaleCATRigLegRDigit11
-      parentName: FemaleCATRigLegRAnkleR
-      position: {x: -0.1318436, y: -0.01482525, z: 0.00003414154}
-      rotation: {x: 0.0006031693, y: -0.00080178655, z: -0.18237825, w: 0.98322797}
-      scale: {x: 0.9999999, y: 1, z: 0.9999999}
-    - name: FemaleCATRigPelvisHelper
-      parentName: FemaleCATRigPelvis
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: -0.00000003059578, y: -0.0000000041854946, z: 0.000000008381901, w: 1}
-      scale: {x: 1, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -556,15 +118,15 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: FemaleCATRigRoot
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 64e60b33256b0954aaa1b7b7f8dfe4c8, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
